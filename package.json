@@ -1,5 +1,5 @@
 {
-  "name": "@jonathanewerner/oss-template",
+  "name": "oss-template",
   "description": "A template for OSS npm packages",
   "main": "dist",
   "files": [
