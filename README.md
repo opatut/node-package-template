@@ -21,7 +21,7 @@ npm run validate # check that skeleton code works
 
 Then some manual steps:
 
-1. Change package.json `name`, `description`, `keywords`, `repository`.
+1. Change package.json `name`, `description`, `keywords`, `repository`, `author` etc.
 2. Create new repo for project on github
 3. `git init`
 4. `git remote add <your-new-repo-origin>`
@@ -40,4 +40,4 @@ Then some manual steps:
       only:
         - master
     ```
-
+8. Change name in line 2 of the LICENCE file if your not Jonathan Werner. ;)
