@@ -40,4 +40,4 @@ Then some manual steps:
       only:
         - master
     ```
-8. Change name in line 2 of the LICENCE file if your not Jonathan Werner. ;)
+8. Change name in line 2 of the LICENCE file if you're not Jonathan Werner. ;)
