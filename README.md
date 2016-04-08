@@ -1,20 +1,22 @@
 # oss-template
 [![Build Status](https://img.shields.io/travis/jonathanewerner/oss-template.svg?style=flat-square)](https://travis-ci.org/jonathanewerner/oss-template)
 [![Code Coverage](https://img.shields.io/codecov/c/github/jonathanewerner/oss-template.svg?style=flat-square)](https://codecov.io/github/jonathanewerner/oss-template)
+![dependencies](https://img.shields.io/david/jonathanewerner/oss-template.svg?style=flat-square)
+![devDependencies](https://img.shields.io/david/dev/jonathanewerner/oss-template.svg?style=flat-square)
 [![version](https://img.shields.io/npm/v/oss-template.svg?style=flat-square)](http://npm.im/oss-template)
-[![downloads](https://img.shields.io/npm/dm/oss-template.svg?style=flat-square)](http://npm-stat.com/charts.html?package=oss-templateor&from=2015-08-01)
+[![downloads](https://img.shields.io/npm/dm/oss-template.svg?style=flat-square)](http://npm-stat.com/charts.html?package=oss-template&from=2015-08-01)
 [![MIT License](https://img.shields.io/npm/l/oss-template.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
 A template repository for OSS npm packages.
 
 ## Usage
 ```bash
-git clone git@github.com:jonathanewerner/oss-template.git
-cd oss-template
+git clone git@github.com:jonathanewerner/oss-template.git <your-new-project-name>
+cd <your-new-project-name>
 rm -rf .git
-ncu -u # npm install -g npm-check-update before
 npm install
 npm run validate # check that skeleton code works
 ```
@@ -40,4 +42,5 @@ Then some manual steps:
       only:
         - master
     ```
-8. Change name in line 2 of the LICENCE file if you're not Jonathan Werner. ;)
+8. Change name in line 2 of the LICENCE file.
+9. `greenkeeper enable` (`npm install -g greenkeeper && greenkeeper login` if not installed)
