@@ -1,5 +1,5 @@
 {
-  "name": "oss-template",
+  "name": "node-package-template",
   "description": "A template for OSS npm packages",
   "main": "dist",
   "files": [
@@ -21,7 +21,7 @@
   "author": "Jonathan Werner <jwe@posteo.de> (http://jonathanwerner.net/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonathanewerner/oss-template.git"
+    "url": "https://github.com/jonathanewerner/node-package-template.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -68,5 +68,6 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "private": true
 }
